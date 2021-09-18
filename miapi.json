@@ -1,0 +1,20 @@
+[
+    {
+        "Nombre": "Santi",
+        "TotalVidas": 3,
+        "Ganados": 14,
+        "Perdidos": 2
+    },
+    {
+        "Nombre": "Adri",
+        "TotalVidas": 1,
+        "Ganados": 10,
+        "Perdidos": 3
+    },
+    {
+        "Nombre": "Pedro",
+        "TotalVidas": 5,
+        "Ganados": 55,
+        "Perdidos": 2
+    }
+]

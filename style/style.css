@@ -1,0 +1,111 @@
+/*https://www.freejpg.com.ar/free/info/100028234/animales-tortugas-anfibios-conchas-duras-naturaleza*/
+/* Imagen de fondo en el body */
+body {
+    background-image: url('../img/fondo.jpg');
+    background-position: top;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    color: darkslategrey;
+}
+
+.card {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.65); 
+    margin: 0 auto;         
+    float: none; 
+    margin-bottom: 10px;
+    background-color:rgba(88, 102, 184, 0.5) !important;
+}
+
+.card-vida{
+    width: 40px; 
+    height: 40px;
+}
+
+.navbar
+{
+    opacity: 0.5;
+}
+
+ul {
+    font-family: sans-serif;
+    font-weight: bolder;
+  }
+
+.color{
+    color: honeydew;
+    opacity: 0.8;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.card-text-estilo{
+    font-weight: 700;
+}
+
+.result{
+    font-size: 20px;
+    font-weight: bold;
+    color: navajowhite;
+}
+
+.ingresarNumero {
+    display: none;
+}
+
+.ingresarDatos{
+    display: block;
+}
+
+.swal-modal {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+}
+
+.swal-text {
+    background-color: #FEFAE3;
+    padding: 17px;
+    border: 3px solid #F0E1A1;
+    text-align: center;
+    color: #61534e;
+  }
+
+.card-body {
+    font-weight: bold;
+  }
+
+.card-bodyResul {
+    display: none;
+} 
+
+.card-header {
+    cursor: pointer;
+} 
+
+.rotate {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+.img-arrow {
+    float:left; 
+    width:3%;
+    margin:12px; 
+}
+
+.usersSave {
+     height: 200px;
+   /* width: 650px; */
+    overflow: auto;
+    display: block;
+    padding: 20px;
+    margin: 20px 0;
+    border: 6px solid #c8c8c8;
+    border-radius: 10px;
+}
